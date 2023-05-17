@@ -36,7 +36,7 @@ export default async function PokemonPage({ params }: Props) {
           height={100}
           className="m-auto"
         />
-        <hr />
+        <hr className="my-2" />
         <div className="grid grid-flow-col items-center">
           <div>
             <p className="">Abilities</p>
@@ -48,7 +48,7 @@ export default async function PokemonPage({ params }: Props) {
             </ul>
           </div>
         </div>
-        <hr />
+        <hr className="my-2" />
         <div className="grid grid-flow-col items-center">
           <p className="">Types</p>
           <ul>
